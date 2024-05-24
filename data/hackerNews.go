@@ -50,6 +50,8 @@ func GetBuzzHNDetail() (idImgMap map[string]string, err error) {
 	}
 	return
 }
+
+// 取前20条
 func GetTopHNList() (data []int, err error) {
 	client := resty.New()
 	_, err = client.R().SetResult(&data).Get("https://hacker-news.firebaseio.com/v0/topstories.json")
@@ -59,8 +61,8 @@ func GetTopHNList() (data []int, err error) {
 	}
 	helpers.BuzzLogger.Info(fmt.Sprintf("top stories cnt: %v", len(data)))
 
-	if len(data) > 150 {
-		data = data[:150]
+	if len(data) > 100 {
+		data = data[:20]
 	}
 	return
 }

@@ -15,6 +15,9 @@ type HNFetchDetail struct {
 	HnId    int      `json:"hnId"`
 }
 
+/*
+*
+ */
 func FetchHnData() (err error) {
 	listId, err := data.GetTopHNList()
 	if err != nil {
