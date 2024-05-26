@@ -61,7 +61,7 @@ func GetTopHNList() (data []int, err error) {
 	}
 	helpers.BuzzLogger.Info(fmt.Sprintf("top stories cnt: %v", len(data)))
 
-	if len(data) > 100 {
+	if len(data) > 20 {
 		data = data[:20]
 	}
 	return

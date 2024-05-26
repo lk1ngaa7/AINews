@@ -4,18 +4,17 @@ Copyright © 2024 NAME HERE <EMAIL ADDRESS>
 package cmd
 
 import (
-	"fmt"
-
+	"buzzGen/service"
 	"github.com/spf13/cobra"
 )
 
 // summaryCmd represents the summary command
 var summaryCmd = &cobra.Command{
 	Use:   "summary",
-	Short: "suammary with llm",
+	Short: "summary with llm",
 	Long:  "",
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("summary called")
+		service.HandleSummary("hn")
 	},
 }
 

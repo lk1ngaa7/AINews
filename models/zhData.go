@@ -1,5 +1,10 @@
 package models
 
+import (
+	"buzzGen/helpers"
+	"fmt"
+)
+
 type TblZhData struct {
 	ID         int    `gorm:"column:id;primary_key;AUTO_INCREMENT"` // 主键
 	OriID      int    `gorm:"column:ori_id;NOT NULL"`               // ori_id
@@ -14,4 +19,33 @@ type TblZhData struct {
 
 func (*TblZhData) TableName() string {
 	return "tblZhData"
+}
+
+func (m *TblZhData) Insert() error {
+	db := helpers.MySQLClient
+	sqlDb, err := db.DB()
+	err = sqlDb.Ping()
+	if err != nil {
+		err, db = helpers.MysqlReconnect()
+		if err != nil {
+			helpers.BuzzLogger.Error(fmt.Sprintf("mysql reconnect error: %v", err))
+			return err
+		}
+	}
+	if err := db.Create(m).Error; err != nil {
+		helpers.BuzzLogger.Error(fmt.Sprintf("insert data error: %v", err))
+		return err
+	}
+	return nil
+}
+
+func GetZhDataByOriId(oriId int) (data TblZhData, err error) {
+	db := helpers.MySQLClient
+	err = db.Where("ori_id = ?", oriId).First(&data).Error
+	if err != nil {
+		helpers.BuzzLogger.Error("get zh data by ori_id failed " + err.Error())
+		return
+	}
+	return
+
 }

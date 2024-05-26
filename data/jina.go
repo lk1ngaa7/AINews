@@ -11,10 +11,12 @@ func GetMarkDownByJina(url string) (str string, err error) {
 	res, err := client.R().Get("https://r.jina.ai/" + url)
 	str = string(res.Body())
 	if err != nil {
-		//失败后重试三次
-		for i := 0; i < 3; i++ {
+		for i := 0; i < 2; i++ {
 			res, err = client.R().Get("https://r.jina.ai/" + url)
 			str = string(res.Body())
+			if helpers.IsJSON(str) {
+				return "", fmt.Errorf("jina failed")
+			}
 			if err == nil && len(str) > 0 {
 				helpers.BuzzLogger.Info(fmt.Sprintf("GetMarkDownByJina retry success: %v", i))
 				return

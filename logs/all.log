@@ -178,3 +178,109 @@
 {"level":"info","time":"2024-05-02T20:55:48.561+0800","linenum":"D:/src/buzzGen/models/oriData.go:43","msg":"get data empty: record not found","serviceName":"serviceName"}
 {"level":"info","time":"2024-05-02T20:55:57.528+0800","linenum":"D:/src/buzzGen/models/oriData.go:43","msg":"get data empty: record not found","serviceName":"serviceName"}
 {"level":"info","time":"2024-05-02T20:56:06.072+0800","linenum":"D:/src/buzzGen/models/oriData.go:43","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:48:41.137+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:48:49.324+0800","linenum":"D:/src/buzzGen/data/hackerNews.go:62","msg":"top stories cnt: 479","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-25T22:48:51.521+0800","linenum":"D:/src/buzzGen/data/hackerNews.go:41","msg":"Error: Get \"https://hn.buzzing.cc/feed.json\": dial tcp 61.160.148.90:443: connectex: No connection could be made because the target machine actively refused it.","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:48:59.878+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:49:20.487+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:49:44.040+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:50:29.726+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:51:10.640+0800","linenum":"D:/src/buzzGen/data/jina.go:19","msg":"GetMarkDownByJina retry success: 0","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:51:12.204+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:51:26.262+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:51:44.985+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:51:58.439+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:52:12.529+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:52:28.092+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:52:49.193+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:53:07.417+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:53:22.381+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:54:12.479+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:54:33.787+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:55:05.561+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:55:27.703+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:55:51.002+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:56:14.303+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-25T22:57:10.243+0800","linenum":"D:/src/buzzGen/models/oriData.go:69","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:35:07.276+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:35:07.810+0800","linenum":"D:/src/buzzGen/models/oriData.go:34","msg":"get ori data by id failed record not found","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:35:08.054+0800","linenum":"D:/src/buzzGen/models/oriData.go:34","msg":"get ori data by id failed record not found","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:35:08.314+0800","linenum":"D:/src/buzzGen/models/oriData.go:34","msg":"get ori data by id failed record not found","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:35:08.563+0800","linenum":"D:/src/buzzGen/models/oriData.go:34","msg":"get ori data by id failed record not found","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:35:08.809+0800","linenum":"D:/src/buzzGen/models/oriData.go:34","msg":"get ori data by id failed record not found","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:35:09.051+0800","linenum":"D:/src/buzzGen/models/oriData.go:34","msg":"get ori data by id failed record not found","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:35:09.328+0800","linenum":"D:/src/buzzGen/models/oriData.go:34","msg":"get ori data by id failed record not found","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:35:09.581+0800","linenum":"D:/src/buzzGen/models/oriData.go:34","msg":"get ori data by id failed record not found","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:35:09.829+0800","linenum":"D:/src/buzzGen/models/oriData.go:34","msg":"get ori data by id failed record not found","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:35:10.073+0800","linenum":"D:/src/buzzGen/models/oriData.go:34","msg":"get ori data by id failed record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:35:31.949+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:35:37.579+0800","linenum":"D:/src/buzzGen/models/oriData.go:34","msg":"get ori data by id failed record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:40:12.680+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:40:13.785+0800","linenum":"D:/src/buzzGen/data/hackerNews.go:62","msg":"top stories cnt: 500","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:40:15.735+0800","linenum":"D:/src/buzzGen/data/hackerNews.go:45","msg":"buzz news cnt: 300","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:40:17.485+0800","linenum":"D:/src/buzzGen/models/oriData.go:79","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:40:22.835+0800","linenum":"D:/src/buzzGen/models/oriData.go:79","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:40:28.037+0800","linenum":"D:/src/buzzGen/models/oriData.go:79","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:40:34.101+0800","linenum":"D:/src/buzzGen/models/oriData.go:79","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:40:38.786+0800","linenum":"D:/src/buzzGen/models/oriData.go:79","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:40:46.757+0800","linenum":"D:/src/buzzGen/models/oriData.go:79","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:40:55.458+0800","linenum":"D:/src/buzzGen/models/oriData.go:79","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:41:02.668+0800","linenum":"D:/src/buzzGen/models/oriData.go:79","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:41:09.377+0800","linenum":"D:/src/buzzGen/models/oriData.go:79","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:41:15.128+0800","linenum":"D:/src/buzzGen/models/oriData.go:79","msg":"get data empty: record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:42:31.196+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:42:49.700+0800","linenum":"D:/src/buzzGen/models/zhData.go:46","msg":"get zh data by ori_id failed record not found","serviceName":"serviceName"}
+{"level":"warn","time":"2024-05-26T17:43:11.281+0800","linenum":"D:/src/buzzGen/helpers/llm.go:21","msg":"gpt gen Error: error, status code: 400, message: %!s(<nil>)","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:43:25.485+0800","linenum":"D:/src/buzzGen/service/summary.go:47","msg":"LLMDeepSeek Error: error, status code: 400, message: %!s(<nil>)","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:43:25.485+0800","linenum":"D:/src/buzzGen/service/summary.go:27","msg":"Insert Error: error, status code: 400, message: %!s(<nil>)","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:43:55.759+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:44:04.122+0800","linenum":"D:/src/buzzGen/models/zhData.go:46","msg":"get zh data by ori_id failed record not found","serviceName":"serviceName"}
+{"level":"warn","time":"2024-05-26T17:45:44.326+0800","linenum":"D:/src/buzzGen/helpers/llm.go:21","msg":"gpt gen Error: error, status code: 400, message: %!s(<nil>)","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:45:44.326+0800","linenum":"D:/src/buzzGen/service/summary.go:47","msg":"LLMDeepSeek Error: error, status code: 400, message: %!s(<nil>)","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:45:44.326+0800","linenum":"D:/src/buzzGen/service/summary.go:27","msg":"Insert Error: error, status code: 400, message: %!s(<nil>)","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:45:44.326+0800","linenum":"D:/src/buzzGen/models/oriData.go:34","msg":"get ori data by id failed invalid connection","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:46:00.082+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:46:09.126+0800","linenum":"D:/src/buzzGen/models/zhData.go:46","msg":"get zh data by ori_id failed record not found","serviceName":"serviceName"}
+{"level":"warn","time":"2024-05-26T17:48:06.382+0800","linenum":"D:/src/buzzGen/helpers/llm.go:21","msg":"gpt gen Error: error, status code: 400, message: %!s(<nil>)","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:48:06.382+0800","linenum":"D:/src/buzzGen/service/summary.go:47","msg":"LLMDeepSeek Error: error, status code: 400, message: %!s(<nil>)","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:48:06.382+0800","linenum":"D:/src/buzzGen/service/summary.go:27","msg":"Insert Error: error, status code: 400, message: %!s(<nil>)","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:48:06.382+0800","linenum":"D:/src/buzzGen/models/oriData.go:34","msg":"get ori data by id failed invalid connection","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T17:48:14.397+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T17:48:23.228+0800","linenum":"D:/src/buzzGen/models/zhData.go:46","msg":"get zh data by ori_id failed record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T18:31:02.100+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T18:31:43.866+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T18:31:52.778+0800","linenum":"D:/src/buzzGen/models/zhData.go:46","msg":"get zh data by ori_id failed record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T18:32:46.991+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T18:32:54.634+0800","linenum":"D:/src/buzzGen/models/zhData.go:46","msg":"get zh data by ori_id failed record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T18:36:24.929+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T18:36:33.415+0800","linenum":"D:/src/buzzGen/models/zhData.go:46","msg":"get zh data by ori_id failed record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T18:54:18.343+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T18:54:25.745+0800","linenum":"D:/src/buzzGen/models/zhData.go:46","msg":"get zh data by ori_id failed record not found","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T18:54:57.350+0800","linenum":"D:/src/buzzGen/service/summary.go:62","msg":"json Unmarshal Error: invalid character '-' in string escape code","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T18:55:08.892+0800","linenum":"D:/src/buzzGen/service/summary.go:28","msg":"Insert Error: invalid character '-' in string escape code","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T18:55:21.555+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T18:55:29.303+0800","linenum":"D:/src/buzzGen/models/zhData.go:46","msg":"get zh data by ori_id failed record not found","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T18:58:14.780+0800","linenum":"D:/src/buzzGen/service/summary.go:62","msg":"json Unmarshal Error: invalid character '-' in string escape code","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T18:58:14.780+0800","linenum":"D:/src/buzzGen/service/summary.go:28","msg":"Insert Error: invalid character '-' in string escape code","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T18:58:14.780+0800","linenum":"D:/src/buzzGen/models/oriData.go:34","msg":"get ori data by id failed invalid connection","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T18:59:38.915+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T18:59:46.435+0800","linenum":"D:/src/buzzGen/models/zhData.go:46","msg":"get zh data by ori_id failed record not found","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T19:06:43.957+0800","linenum":"D:/src/buzzGen/service/summary.go:62","msg":"json Unmarshal Error: invalid character '-' in string escape code","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T19:06:43.957+0800","linenum":"D:/src/buzzGen/service/summary.go:28","msg":"Insert Error: invalid character '-' in string escape code","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T19:06:43.957+0800","linenum":"D:/src/buzzGen/models/oriData.go:34","msg":"get ori data by id failed invalid connection","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T19:55:43.664+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T19:56:14.082+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T19:56:23.934+0800","linenum":"D:/src/buzzGen/models/zhData.go:46","msg":"get zh data by ori_id failed record not found","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T20:04:32.516+0800","linenum":"D:/src/buzzGen/service/summary.go:62","msg":"json Unmarshal Error: invalid character 'ð' after object key:value pair","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T20:04:32.516+0800","linenum":"D:/src/buzzGen/service/summary.go:28","msg":"Insert Error: invalid character 'ð' after object key:value pair","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T20:04:32.516+0800","linenum":"D:/src/buzzGen/models/oriData.go:34","msg":"get ori data by id failed invalid connection","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T20:10:57.316+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T20:11:05.560+0800","linenum":"D:/src/buzzGen/models/zhData.go:46","msg":"get zh data by ori_id failed record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T20:17:39.651+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T20:17:47.910+0800","linenum":"D:/src/buzzGen/models/zhData.go:46","msg":"get zh data by ori_id failed record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T20:18:45.701+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T20:18:48.260+0800","linenum":"D:/src/buzzGen/models/zhData.go:46","msg":"get zh data by ori_id failed record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T20:18:54.971+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T20:19:05.229+0800","linenum":"D:/src/buzzGen/models/zhData.go:46","msg":"get zh data by ori_id failed record not found","serviceName":"serviceName"}
+{"level":"info","time":"2024-05-26T20:37:57.628+0800","linenum":"D:/src/buzzGen/helpers/logger.go:70","msg":"DefaultLogger init success","serviceName":"serviceName"}
+{"level":"error","time":"2024-05-26T20:38:05.006+0800","linenum":"D:/src/buzzGen/models/zhData.go:46","msg":"get zh data by ori_id failed record not found","serviceName":"serviceName"}

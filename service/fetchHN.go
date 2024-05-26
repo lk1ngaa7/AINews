@@ -15,9 +15,6 @@ type HNFetchDetail struct {
 	HnId    int      `json:"hnId"`
 }
 
-/*
-*
- */
 func FetchHnData() (err error) {
 	listId, err := data.GetTopHNList()
 	if err != nil {
@@ -25,6 +22,7 @@ func FetchHnData() (err error) {
 		return err
 	}
 	idMapList, err := data.GetBuzzHNDetail()
+	var newHotList []models.TblHotData
 	for index, id := range listId {
 		key := "https://news.ycombinator.com/item?id=" + strconv.Itoa(id)
 		hnd, err := data.GetHnDetail(id)
@@ -45,6 +43,17 @@ func FetchHnData() (err error) {
 			err = oriData.Update()
 			if err != nil {
 				helpers.BuzzLogger.Error(fmt.Sprintf("update ori data Error: %v", err))
+			}
+			tmpHot := models.TblHotData{
+				OriId:      oriData.ID,
+				OrderBy:    index,
+				Category:   "hn",
+				CreateTime: int32(time.Now().Unix()),
+				UpdateTime: int32(time.Now().Unix()),
+			}
+			newHotList = append(newHotList, tmpHot)
+			if len(newHotList) == 10 {
+				break
 			}
 			continue
 		}
@@ -89,7 +98,27 @@ func FetchHnData() (err error) {
 		err = tblOriData.Insert()
 		if err != nil {
 			helpers.BuzzLogger.Error(fmt.Sprintf("Insert Error: %v", err))
+		} else {
+			tmpHot := models.TblHotData{
+				OriId:      tblOriData.ID,
+				OrderBy:    index,
+				Category:   "hn",
+				CreateTime: int32(time.Now().Unix()),
+				UpdateTime: int32(time.Now().Unix()),
+			}
+			newHotList = append(newHotList, tmpHot)
+			if len(newHotList) == 10 {
+				break
+			}
 		}
+	}
+	//如果newHotList长度大于10.只保留10个
+	if len(newHotList) > 10 {
+		newHotList = newHotList[:10]
+	}
+	err = DelAndAddHotData("hn", newHotList)
+	if err != nil {
+		helpers.BuzzLogger.Error(fmt.Sprintf("DelAndAddHotData Error: %v", err))
 	}
 	return
 }

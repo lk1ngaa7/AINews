@@ -27,6 +27,16 @@ func (*TblOriData) TableName() string {
 	return "tblOriData"
 }
 
+func GetOriDataById(Id int) (data TblOriData) {
+	db := helpers.MySQLClient
+	err := db.Where("id = ?", Id).First(&data).Error
+	if err != nil {
+		helpers.BuzzLogger.Error("get ori data by id failed " + err.Error())
+		return
+	}
+	return
+}
+
 // update
 func (m *TblOriData) Update() error {
 	db := helpers.MySQLClient
